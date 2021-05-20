@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d4d4d4;
+}
+
+nav {
+    background-color: #737373;
+    padding: 10px 20px;
+}
+
+.logo{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+
+nav .search {
+    float: left;
+    width: 510px;
+    margin-top: 5px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+nav .search .logo-search{
+    background-color: #acacac;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+nav .nav-square .item-square{
+    float: right;
+    background-color: #acacac;
+    width: 86px;
+    height: 30px;
+    margin: 0 7px;
+    margin-top: 5px;
+}
+
+nav .nav-circle .item-circle{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #acacac;
+}
+
+nav .container{
+    margin: 0 auto;
+    width: 1305px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1341px;
+}
+
+.sidebar-left{
+    float: left;
+    box-sizing: border-box;
+    width: 267px;
+    padding: 10px 20px;
+}
+
+.sidebar-left .sidebar-left-1 .square{
+    float: left;
+    width: 167px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+.sidebar-left .sidebar-left-2 .square{
+    margin: 10px 0;
+    width: 227px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.sidebar-left .sidebar-left-2 .square:nth-child(5){
+    margin: 40px 0;
+}
+
+.main{
+    box-sizing: border-box;
+    float: left;
+    width: 674px;
+    padding: 10px 20px 0 20px;
+}
+
+.main .post{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    height: 159px;
+    box-sizing: border-box;
+}
+
+.main .input-post{
+    width: 100%;
+    height: 67px;
+    background-color: #d4d4d4;
+    margin-top: 10px;
+}
+
+.main .post-square{
+    margin-top: 10px;
+}
+
+.main .post-square .square{
+    margin-right: 7px;
+    float: left;
+    width: 147px;
+    height: 30px;
+    background-color: #d4d4d4;
+}
+
+.main .post-square .square:nth-child(4){
+    width: 73px;
+}
+
+.main .stories{
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 273px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.main .stories-square .square{
+    background-color: #d4d4d4;
+    float: left;
+    width: 138px;
+    height: 226px;
+    margin: 5px;
+}
+
+.main .status {
+    margin-top: 10px;
+    padding: 10px 20px 0 20px;
+    width: 100%;
+    height: 293px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.main .status .status-desc p{
+    float: left;
+}
+
+.main .status .status-desc .status-desc-square{
+    background-color: #d4d4d4;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.main .status .status-name{
+    margin-top: 10px;
+}
+.main .status .status-name .logo-status{
+    background-color: #d4d4d4;
+}
+
+.main .status .status-name .name{
+    margin-top: 4px;
+    width: 534px;
+    height: 30px;
+    background-color: #d4d4d4;
+    float: left;
+}
+
+
+.main .status .status-main .square{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #d4d4d4;
+}
+.main .status .status-main .square:last-child{
+    height: 153px;
+}
+
+.sidebar-right{
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px 20px 0 20px;
+}
+
+.sidebar-right .sidebar-right-1{
+    background-color: #ffffff;
+    width: 100%;
+    height: 87px;
+    box-sizing: border-box;
+}
+
+.sidebar-right .sidebar-right-2{
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 385px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.sidebar-right .sidebar-right-2 .sidebar-right-2-square{
+    margin: 10px 0;
+}
+.sidebar-right .sidebar-right-2 .sidebar-right-2-square .square{
+    float: left;
+    margin: 10px 5px 0 5px;
+    background-color: #d4d4d4;
+    width: 150px;
+    height: 144px;
+}
+
+.sidebar-right .sidebar-right-3{
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 253px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.sidebar-right .sidebar-right-3 .desc p{
+    float: left;
+}
+
+.sidebar-right .sidebar-right-3 .desc p.see-all{
+    float: right;
+}
+
+.sidebar-right .sidebar-right-3 .people-name{
+    width: 100%;
+    height: 65px;
+    background-color: #d4d4d4;
+    margin-top: 10px;
+}
+
+
+.chat{
+    padding: 10px 0 0 10px;
+    margin-right: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 345px;
+    height: 40px;
+    background-color: #acacac;
+    box-sizing: border-box;
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
